@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Hermit - V2</title>
+		<link>//localhost:1313/en/posts/</link>
+		<description>Recent content in Posts on Hermit - V2</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en</language>
+		<lastBuildDate>Sun, 17 Mar 2024 12:29:08 +0100</lastBuildDate>
+		<atom:link href="//localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>First_post</title>
+			<link>//localhost:1313/en/posts/first_post/</link>
+			<pubDate>Sun, 17 Mar 2024 12:29:08 +0100</pubDate>
+			
+			<guid>//localhost:1313/en/posts/first_post/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<h2 id="ciao">Ciao</h2>
+<p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.</p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Lavel06</title>
+			<link>//localhost:1313/en/posts/solution/</link>
+			<pubDate>Sun, 17 Mar 2024 12:29:08 +0100</pubDate>
+			
+			<guid>//localhost:1313/en/posts/solution/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<h2 id="topic">Topic</h2>
+<p>Permessi di accesso generosi ad una password “legacy”</p>
+<h2 id="soluzione">Soluzione</h2>
+<p>Allora questa è un pò più terra terra, quello che faccimao all&rsquo;inizio è andare a cercare cosa possiamo o non possiamo leggere, e quello che salta fuori è che leggendo il file <code>/etc/passwd</code> possiamo notare che per l&rsquo;utente flag06 è contenuto l&rsquo;hash della password e non una x come avviene nei sistemi moderni.
+<code>cat /etc/passwd | grep flag06</code> &ndash;&gt; <code>flag06:ueqwOCnSGdsuM:993:993::/home/flag06:/bin/sh</code></p>
+<h3 id="che-hash-è">Che hash è???</h3>
+<p>Cosa me ne faccio dell&rsquo;hash? prima cosa devo capire che tipo di hash si tratta e per farlo posso usare il comando <code>hashid</code> (non presente di default in arch). Usando hashid l&rsquo;output che ottendo è il seguente:
+<code>  Analyzing 'ueqwOCnSGds [+] Des(Unix) [+] Traditional DES  [+] DEScrypt</code>
+!!Ottimo, des fa schifo, ora si cracca. Uno dei software di hash crack più famosi è hashcat. Allora per hashcat, se non hai la scheda video integrata bisogna scaricare le API di CUDA altrimenti non va una fava. Il comando utilizzato è il seguente <code>hashcat -a 0 -m 1500 flag06.txt &lt;dizionario&gt;</code>.
+- -a 0 : indica il tipo di attacco, nel nostro caso a dizionario
+- -m 1500: indica il tipo di funzione hash, nel nostro caso DES
+- l&rsquo;output di hashcat si trova in un file .potfile contenuto nella cartella <code>/home/arusso/.local/share/hashcat/hashcat.potfile</code></p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

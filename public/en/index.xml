@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hermit - V2</title>
+    <link>//localhost:1313/en/</link>
+    <description>Recent content on Hermit - V2</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 17 Mar 2024 12:29:51 +0100</lastBuildDate>
+    <atom:link href="//localhost:1313/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>//localhost:1313/en/about/about/</link>
+      <pubDate>Sun, 17 Mar 2024 12:29:51 +0100</pubDate>
+      <guid>//localhost:1313/en/about/about/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>First_post</title>
+      <link>//localhost:1313/en/posts/first_post/</link>
+      <pubDate>Sun, 17 Mar 2024 12:29:08 +0100</pubDate>
+      <guid>//localhost:1313/en/posts/first_post/</guid>
+      <description>Ciao Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod.</description>
+    </item>
+    <item>
+      <title>Lavel06</title>
+      <link>//localhost:1313/en/posts/solution/</link>
+      <pubDate>Sun, 17 Mar 2024 12:29:08 +0100</pubDate>
+      <guid>//localhost:1313/en/posts/solution/</guid>
+      <description>Topic Permessi di accesso generosi ad una password “legacy”&#xA;Soluzione Allora questa è un pò più terra terra, quello che faccimao all&amp;rsquo;inizio è andare a cercare cosa possiamo o non possiamo leggere, e quello che salta fuori è che leggendo il file /etc/passwd possiamo notare che per l&amp;rsquo;utente flag06 è contenuto l&amp;rsquo;hash della password e non una x come avviene nei sistemi moderni. cat /etc/passwd | grep flag06 &amp;ndash;&amp;gt; flag06:ueqwOCnSGdsuM:993:993::/home/flag06:/bin/sh</description>
+    </item>
+  </channel>
+</rss>

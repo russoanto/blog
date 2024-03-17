@@ -1,0 +1,13 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on Notes by Anto</title>
+		<link>//localhost:1313/it/posts/</link>
+		<description>Recent content in Posts on Notes by Anto</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>CHANGE ME</copyright>
+		<lastBuildDate>Sun, 17 Mar 2024 12:29:08 +0100</lastBuildDate>
+		<atom:link href="//localhost:1313/it/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+	</channel>
+</rss>
