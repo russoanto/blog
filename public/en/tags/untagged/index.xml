@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Untagged on Hermit - V2</title>
-    <link>//localhost:1313/en/tags/untagged/</link>
+    <link>http://localhost:1313/blog/en/tags/untagged/</link>
     <description>Recent content in Untagged on Hermit - V2</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 17 Mar 2024 12:29:08 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/en/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/en/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First_post</title>
-      <link>//localhost:1313/en/posts/first_post/</link>
+      <link>http://localhost:1313/blog/en/posts/first_post/</link>
       <pubDate>Sun, 17 Mar 2024 12:29:08 +0100</pubDate>
-      <guid>//localhost:1313/en/posts/first_post/</guid>
+      <guid>http://localhost:1313/blog/en/posts/first_post/</guid>
       <description>Ciao Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod.</description>
     </item>
   </channel>
