@@ -1,8 +1,8 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Hermit - V2</title>
+		<title>Posts on Notes by Anto</title>
 		<link>http://localhost:1313/blog/en/posts/</link>
-		<description>Recent content in Posts on Hermit - V2</description>
+		<description>Recent content in Posts on Notes by Anto</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en</language>
 		<lastBuildDate>Sun, 17 Mar 2024 12:29:08 +0100</lastBuildDate>

@@ -9,21 +9,19 @@ defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
 defaultContentLanguage = "en"
 
-buildDrafts = true
-
 [languages]
   [languages.en]
-    title = 'Hermit - V2'
+    title = 'Notes by Anto'
     [languages.en.params]
       homeSubtitle = "Continuing Hermit's legacy to be minimal and fast theme"
     weight = 1
   [languages.fr]
-    title = 'Hermit - V2 (FR)'
+    title = 'Notes by Anto'
     [languages.fr.params]
       homeSubtitle = "Poursuivre l'héritage d'Hermit avec un thème minimal et rapide"
     weight = 2
   [languages.it]
-    title = 'Hermit - V2 (IT)'
+    title = 'Notes by Anto'
     [languages.it.params]
       homeSubtitle = "Continuare l'eredità di Hermit di essere un tema minimale e veloce"
     weight = 3
