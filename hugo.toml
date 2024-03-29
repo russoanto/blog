@@ -6,7 +6,7 @@
 
 baseURL = "https://russoanto.github.io/blog/"
 defaultContentLanguageInSubdir = true
-theme = "hermit-v2"
+theme = "hello-friend-ng"
 defaultContentLanguage = "en"
 
 [languages]
