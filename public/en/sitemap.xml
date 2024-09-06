@@ -2,61 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/en/about/</loc>
+    <loc>http://localhost:1313/en/crittografia/</loc>
+    <lastmod>2024-09-05T18:07:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/crittografia/mls_project/</loc>
+    <lastmod>2024-09-05T18:07:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/</loc>
+    <lastmod>2024-09-05T18:07:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/en/about/about/</loc>
     <lastmod>2024-03-17T12:29:51+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/</loc>
+    <loc>http://localhost:1313/en/about/</loc>
     <lastmod>2024-03-17T12:29:51+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/blog/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/blog/it/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/"
-                />
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/ctf/</loc>
+    <loc>http://localhost:1313/en/tags/ctf/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/posts/first_post/</loc>
+    <loc>http://localhost:1313/en/posts/first_post/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/posts/solution/</loc>
+    <loc>http://localhost:1313/en/posts/solution/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/nebula/</loc>
+    <loc>http://localhost:1313/en/tags/nebula/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/posts/</loc>
+    <loc>http://localhost:1313/en/posts/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/</loc>
+    <loc>http://localhost:1313/en/tags/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/blog/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="it"
-                href="http://localhost:1313/blog/it/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/blog/en/tags/"
-                />
   </url><url>
-    <loc>http://localhost:1313/blog/en/tags/untagged/</loc>
+    <loc>http://localhost:1313/en/tags/untagged/</loc>
     <lastmod>2024-03-17T12:29:08+01:00</lastmod>
   </url>
 </urlset>

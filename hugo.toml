@@ -4,28 +4,10 @@
 # To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
 # Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-baseURL = "https://russoanto.github.io/blog/"
-defaultContentLanguageInSubdir = true
-theme = "hello-friend-ng"
-defaultContentLanguage = "en"
+baseURL = "https://russoanto.github.io/"
+theme = "hugo-blog-awesome"
 
-[languages]
-  [languages.en]
-    title = 'Notes by Anto'
-    [languages.en.params]
-      homeSubtitle = "Continuing Hermit's legacy to be minimal and fast theme"
-    weight = 1
-  [languages.fr]
-    title = 'Notes by Anto'
-    [languages.fr.params]
-      homeSubtitle = "Poursuivre l'héritage d'Hermit avec un thème minimal et rapide"
-    weight = 2
-  [languages.it]
-    title = 'Notes by Anto'
-    [languages.it.params]
-      homeSubtitle = "Continuare l'eredità di Hermit di essere un tema minimale e veloce"
-    weight = 3
- 
+
 languageCode = "en-us"
 
  title = "Notes by Anto"
@@ -52,10 +34,6 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 publishDate = ["publishDate", "date"]
 expiryDate = ["expiryDate"]
 
-
-[params.author]
-  name = "Russo Antonio"
-  #about = "CHANGE SITE AUTHOR ABOUT"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -84,10 +62,8 @@ expiryDate = ["expiryDate"]
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
-  # description = "CHANGE ME SITE DESCRIPTION"
-  # images = [""]
-  themeColor = "#494f5c"
-
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "Minimal Hugo blog theme with light and dark mode support"
   #homeSubtitle = "CHANGE ME HOME SUBTITLE"
   #footerCopyright = ""
   # bgImg = ""
@@ -116,23 +92,40 @@ expiryDate = ["expiryDate"]
   #[[params.socialLinks]]
    # name = "mastodon"
     #url = "https://joinmastodon.org/"
+[params.author]
+  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Russo Antonio"
+  name = "Russo Antonio"
+  description = "I am a Computer Science student with a deep passion for cybersecurity. Throughout my academic journey, I have developed skills in programming, network security and cryptography."
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/russoanto"
 
-  [[params.socialLinks]]
-    name = "x"
-    url = "https://twitter.com/"
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/antonio-russo-022938199/"
 
-  [[params.socialLinks]]
-    name = "github"
-    url = "https://github.com/russoanto"
+[[params.socialIcons]]
+name = "email"
+url = "mailto:russoantonio451@gmail.com"
+
 
 [menu]
 
   [[menu.main]]
+    identifier = "posts"
     name = "Posts"
-    url = "posts/"
+    url = "/posts/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
-    url = "about-hugo/"
+    name = "Crittografia"
+    url = "/crittografia/"
     weight = 20
+
+  [[menu.main]]
+   identifier = "about"
+   name = "About"
+   url = "/about/"
+   weight = 30
