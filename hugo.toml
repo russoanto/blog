@@ -97,7 +97,7 @@ expiryDate = ["expiryDate"]
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Russo Antonio"
   name = "Russo Antonio"
-  description = "I am a Computer Science student with a deep passion for cybersecurity. Throughout my academic journey, I have developed skills in programming, network security and cryptography."
+  description = "I am a Computer Science student with a deep passion for cybersecurity."
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/russoanto"
